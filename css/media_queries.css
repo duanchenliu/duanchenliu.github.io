@@ -1,0 +1,388 @@
+
+/***********************************************************/
+/********************** MEDIA QUERIES **********************/
+/***********************************************************/
+
+@media screen and (prefers-reduced-motion: reduce) { 
+}
+
+@media screen and (prefers-reduced-motion) { 
+}
+
+/********** HUGE DEVICES **********/
+/*@media (min-width: 2560px) {
+	#title {
+		font-size: 120px;
+	}
+	#title-ipa {
+
+	}
+	#description {
+		font-size: 70px;
+	}
+
+	.nav {
+		height: 300px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+		font-size: 40px;
+	}
+
+	.navbar-nav .nav-item {
+		padding: 0px 100px;
+	}
+
+	.menu-icon {
+		background-size: 60px 60px;
+		width: 60px;
+		height: 60px;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover .menu-icon {
+		background: url('../images/icon_fill_small.png') no-repeat;
+		background-size: 60px 60px;
+		width: 60px;
+		height: 60px;
+		margin: auto;
+	}
+}*/
+
+
+/********** LARGE DEVICES **********/
+@media (min-width: 1200px) and (max-width: 2559px) {
+
+}
+
+/********** MEDIUM DEVICES **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+	.container-fluid {
+		width: 95%;
+	}
+
+}
+
+/* main page bracket and flower images */
+@media (max-width: 790px) {
+	.flowers {
+		display: none;
+	}
+}
+
+/********** SMALL-ISH DEVICES **********/
+@media (min-width: 426px) and (max-width: 767px) {
+	.container-fluid {
+		width: 95%;
+	}
+
+	.image-container .image {
+		width: 70%;
+	}
+
+	.image-row {
+		margin: 0;
+		width: 100%;
+	}
+
+	.image-row .col-md-6 {
+		padding: 0;
+	}
+
+	#title {
+		font-size: 50px;
+	}
+
+	#title-ipa {
+		font-size: 30px;
+	}
+
+	#description {
+		font-size: 20px;
+	}
+
+	.menu-icon {
+		background-size: 25px 25px;
+		width: 25px;
+		height: 25px;
+	}
+
+	.navbar-nav .nav-item {
+		font-size: 16px;
+		padding: 0px 20px;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover .menu-icon {
+		background: url('../images/icon_fill_small.png') no-repeat;
+		background-size: 25px 25px;
+		width: 25px;
+		height: 25px;
+		margin: auto;
+	}
+
+	.jumbotron {
+		height: 170px;
+	}
+	
+	.md-form {
+		width: 100%;
+	}
+
+	/****** NAVBAR ******/
+	/* navbar spacing */
+	.navbar-nav .nav-item {
+		padding: 0px 8px;
+	}
+
+	.navbar-nav .nav-link {
+		font-size: 1vw;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.nav-container {
+		/*background-color: pink;*/
+		height: 25px;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.nav-ipa {
+		display: none;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover .nav-text, .navbar-nav .nav-item .nav-link:focus .nav-text {
+		position: absolute;
+		top: 12px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: var(--text-hover-color);
+		transition: 0s;
+	}
+	 
+
+	h1 {
+		font-size: 45px;
+	}
+
+	.school h1 {
+		font-size: 40px;
+	}
+
+	.school h2 {
+		font-size: 30px;
+	}
+
+	.school .number {
+		font-size: 18px;
+	}
+
+	.twirl {
+		width: 20px;
+	}
+
+	.pencil {
+		width: 30px;
+	}
+
+	.single-col .course {
+		margin: 0.4rem 0;
+	}
+
+	.body-icon, .flowers, .bracket {
+		display: none;
+	}
+
+	.upper {
+		margin-top: 0rem;
+	}
+
+	.upper-more {
+		margin-top: -0.4rem;
+	}
+
+	.mobile-show {
+		display: inline;
+	}
+	
+}
+
+/********** SMALL DEVICES **********/
+@media (max-width: 425px) {
+	.container-fluid {
+		width: 98%;
+	}
+
+	.jumbotron {
+		height: 150px;
+	}
+
+	.md-form {
+		width: 100%;
+	}
+
+	.image-container .image {
+		width: 90%;
+	}
+
+	.image-row {
+		margin: 0;
+		width: 100%;
+	}
+
+	.image-row .col-md-6 {
+		padding: 0;
+	}
+
+	/****** NAVBAR ******/
+	/* navbar spacing */
+	.navbar-nav .nav-item {
+		padding: 0px 8px;
+	}
+
+	.navbar-nav .nav-link {
+		font-size: 1vw;
+	}
+
+	.menu-icon {
+		display: none;
+	}
+
+	.nav-container {
+		/*background-color: pink;*/
+		height: 25px;
+		margin: auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.nav-ipa {
+		display: none;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover .nav-text, .navbar-nav .nav-item .nav-link:focus .nav-text {
+		position: absolute;
+		top: 12px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: var(--text-hover-color);
+		transition: 0s;
+	}
+	
+	/****** SITE TITLE ******/
+	#description {
+		font-size: 5vw;
+	}
+	#title-container {
+		/*height: 60px;*/
+		width: 90vw;
+		/*margin: auto;*/
+		margin: 0;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	#title {
+		font-size: 12vw;
+		color: var(--text-color); 
+		font-family: Sacramento, serif;
+		position: absolute;
+		left: 45vw;
+		/*transform: translate(-50%, -50%);*/
+		top: 22px;
+		transition: 0.3s ease;
+		white-space: wrap;
+	}
+	#title-ipa {
+		font-size: 24px;
+		color: var(--text-color);
+		font-family: Times New Roman, sans-serif;
+		position: absolute;
+		/*left: 0%;*/
+		transform: translate(-50%, -50%);
+		top: 90px;
+		transition: 0.3s ease;
+		white-space: nowrap;
+	}
+
+	/****** AFTER ******/
+	#title-container:hover #title, #title-container:focus #title {
+		position: absolute;
+		top: -50px;
+		transition: 0.3s ease;
+	}
+	#title-container:hover #title-ipa, #title-container:focus #title-ipa {
+		color: var(--text-color);
+		position: absolute;
+		top: 30px;
+		transition: 0.3s ease;
+	}
+	#title:hover {
+		text-decoration: none;
+	}
+
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 38px;
+	}
+
+	.school h1 {
+		font-size: 35px;
+	}
+
+	.school h2 {
+		font-size: 30px;
+	}
+
+	.school .number {
+		font-size: 16px;
+	}
+
+	.twirl {
+		width: 20px;
+	}
+
+	.pencil {
+		width: 30px;
+	}
+
+	.single-col .course {
+		margin: 0.4rem 0;
+	}
+
+	.body-icon, .flowers, .bracket {
+		display: none;
+	}
+
+	.about .body-icon {
+		/*display: inline;*/
+	}
+
+	.upper {
+		margin-bottom: 1.3rem;
+		margin-top: 0rem;
+	}
+
+	.upper-more {
+		margin-top: -0.4rem;
+	}
+
+	.mobile-show {
+		display: inline;
+	}
+}
+
+/********** TINY DEVICES **********/
+@media (max-width: 300px) {
+	.about .body-icon {
+		/*display: none;*/
+	}
+
+}
+
+

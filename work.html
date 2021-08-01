@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media_queries.css" type="text/css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163440366-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163440366-1');
+	</script>
+
+	<!-- SITE INFO -->
+	<title>Duanchen Liu</title>
+	<meta name="description" content="a personal website" />
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="images/Dora/icon_small1.png" sizes="96x96">
+</head>
+
+
+
+<body>
+<!---------------------------- HEADER ---------------------------->
+<header>
+<!-- TITLE HEADER -->
+<div class="container-fluid" style="padding: 0; width: 100%;">
+	<div class="jumbotron text-center">
+		<!-- SECRET
+		<div id="secret-container">
+			<a id="secret" href="https://yingyangle.web.app" target="_blank">(random stuff)</a>
+		</div> -->
+		<!-- TITLE -->
+		<div id="title-container">
+			<a id="navIndexUrl" href='index.html'>
+				<div id="title" onclick="window.location.reload(true);">Duanchen Liu</div>
+				<div id="title-ipa">刘端辰</div>
+			</a> <!-- end index.html link -->
+		</div> <!-- end title-container -->
+		<p id="description" align="center">(a personal website)</p> <!-- end description -->
+	</div> <!-- end jumbotron -->
+</div> <!-- end container-fluid -->
+<!-- end title -->
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-sm navbar-light shadow-effect" id="my-navbar">
+<div class="container-fluid">
+	<!-- HAMBURGER BUTTON -->
+	<button id="hamburger" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsed-nav-items" aria-controls="collapsed-nav-items" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="icon-bar top-bar"></span>
+		<span class="icon-bar middle-bar"></span>
+		<span class="icon-bar bottom-bar"></span>
+	</button>
+	<!-- NAVIGATION ITEMS -->
+	<div class="collapse navbar-collapse" id="collapsed-nav-items">
+		<ul class="navbar-nav mr-auto" id="nav-items">
+			<!-- ABOUT -->
+			<li class="nav-item dropdown">
+				<a id="navAboutUrl" class="nav-link" href="about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navAbout">about</div>
+						<div class="nav-ipa" id="navIpaAbout">/əˈbaʊt/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+				<div class="navbar-dropdown-content" aria-labelledby="navbarDropdown">
+					<a class="navbar-dropdown-item" id="navSchool" href="school.html">school</a>
+					<a class="navbar-dropdown-item" id="navResume" href="resume.html">resume</a>
+				</div> <!-- end dropdown -->
+			</li> <!-- end nav-item -->
+			<!-- WORK -->
+			<li class="nav-item dropdown">
+				<a id="navWorkUrl" class="nav-link" href="work.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon menu-icon-fill"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navWork">work</div>
+						<div class="nav-ipa" id="navIpaWork">/wɝk/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+			<!-- PROJECTS -->
+			<li class="nav-item dropdown">
+				<a id="navProjectsUrl" class="nav-link" href="projects.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navProjects">projects</div>
+						<div class="nav-ipa" id="navIpaProjects">/ˈpɹɑdˌʒɛkts/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+			<!-- DESIGN -->
+			<li class="nav-item dropdown">
+				<a id="navDesignUrl" class="nav-link" href="design.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navDesign">design</div>
+						<div class="nav-ipa" id="navIpaDesign">/dɪˈzaɪn/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+		</ul> <!-- END NAV-ITEMS (navbar-nav mr-auto) -->
+	</div> <!-- end navbar-collapse -->
+</div> <!-- end container-fluid -->
+</nav> <!-- end navbar-light -->
+</header>
+<!---------------------------- END HEADER ---------------------------->
+
+
+<!---------------------------- BODY ---------------------------->
+
+<!-- LIGHTBOX OVERLAY -->
+<div id="overlay" class="text-center" aria-hidden="true">
+	<div id="overlay-container">
+		<div id="overlay-text"></div>
+		<img id="image-overlay" width=50%></img>
+		<br><br>
+		<div id="overlay-tip">Use the left and right arrows to navigate through the images.</div>
+		<br><br><br>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="jumbotron container-fluid shadow-effect" id="main-content">
+
+		<!-- VIZ WORK -->
+		<h1 id="vizwork" class="inline">Visualization</h1>
+		<img src="images/pencil.svg" width="35px" class="body-icon">
+		<a class="social-icon-white" href="https://reflectiveeducationalresearch.com" target="_blank"><img src="images/link.svg" title="(link to project)" class="icon-right" width="30rem"></a>
+		<p id="vizinto">Recently I've started working with Professor Bebell at Boston College's School of Education to create a visualization dashboard illustrating the impact of technology on education in K-12 schools in Singapore. As a part of Apple's education program, these schools are provided with laptops and iPads and we can study the manner of usage and effects of usage by collecting surveys on student and teacher experience before and during the distribution of the technology. We then create a dashboard to allow school administrators to easily view the results from the surveys and draw insights from the data. </p>
+		<div class="row image-row">
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/als1.png" class="image" title="a screenshot of the ALS Dashboard (WIP)" data-caption="a screenshot of the ALS Dashboard (WIP)">
+				</div> <!-- end image-container -->
+			</div>
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/als2.png" class="image" title="a screenshot of the ALS Dashboard with data filters (WIP)" data-caption="a screenshot of the ALS Dashboard with data filters (WIP)">
+				</div> <!-- end image-container -->
+			</div>
+		</div>
+		<br><br>
+
+		<!-- RESEARCH -->
+		<h1 id="research" class="inline">Research</h1>
+		<img src="images/pencil.svg" width="35px" class="body-icon">
+		<p id="researchintro" >Since my sophomore year I've been doing research with Professor Prud'hommeaux in the Computer Science department, and it's been a lot of fun. Here are some of the things we've been working on:</p><br>
+
+		<h3 id="aapld" class="inline">Automated Analysis of Pragmatic Language Development in Autism</h3>
+		<span class="nobreak">
+			<!-- <h3 class="inline">in Autism</h3> -->
+			<img src="images/paper.svg" width="30px" class="body-icon">
+			<a class="social-icon-white" href="http://cs.bc.edu/~prudhome/AAPLD/index.html" target="_blank"><img src="images/link.svg" title="(link to project)" class="icon-right" width="30rem"></a>
+		</span>
+		<p id="aapldtext">Autism spectrum disorder (ASD) is a neurodevelopmental condition associated with life-long deficits in communication that can impact both personal and professional well-being. Although the linguistic features associated with these deficits are routinely observed in clinical settings, they are difficult to quantify. For our research, we're collecting a growing dataset of conversations between high-functioning adults with ASD and their neurotypical conversational partners as they complete several collaborative tasks. We compare the linguistic characteristics of the two groups using both manually annotated features and computationally predicted features extracted from the conversations.</p>
+		<br>
+		<p class="upper">Yang, C., Prud’hommeaux, E., Silverman, L.B., Canfield, A. 2020. Toward Characterizing the Language of Adults with Autism in Collaborative Discourse. In <i>Proceedings of the Workshop on Resources and processing of linguistic, para-linguistic and extra-linguistic data from people with various forms of cognitive, psychiatric, developmental impairments (RaPID-3)</i>, 54–59.</p>
+		<p class="upper">Yang, C., Liu, D., Canfield, A., Hoffkins, C., Aldrich, J., Farash, S., Silverman, L., and Prud’hommeaux,
+			E. 2021. Distinctive Features of Pragmatic Expression in Adults with ASD. Annual
+			Conference of the International Society for Autism Research (INSAR-2021), virtual.</p>
+		
+		<div class="image-container">
+			<img src="images/research1.png" class="image" title="comparison of speech act distribution for austic participants (ASD) and typically developing participants (TD)" data-caption="comparison of speech act distribution for austic participants (ASD) and typically developing participants (TD)">
+		</div> <!-- end image-container -->
+		<br><br>
+	
+		<h3 id="animals" class="inline">Automated Language Analysis for Dementia Screening</h3>
+		<span class="nobreak">
+			<!-- <h3 class="inline">Sceening</h3> -->
+			<img src="images/paper.svg" width="30px" class="body-icon">
+		</span>
+		<p id="animalstext" class="upper">A common method of screening for dementia is the administration of a verbal fluency test, in which the patient is presented with a semantic or phonetic category and is given a minute to list as many words belonging to that category as they can. This research aims at using word embedding models to automatically analyze the fluency tests, thus removing the need for specialists to manually analyze the data themselves. Using "animals" as the semantic topic, we collect verbal fluency test data from participants in several age groups, with and without dementia. The cosine similarity between each pair of adjacent animals in the data is then generated by vector space models to determine whether a new semantic thread has begun. We employ a number of pre-trained models to generate the similarity metrics, using algorithms such as fastText, word2vec, gensim, and GloVe, and we also collect domain-specific data from Wikipedia on which new models are trained from scratch.</p>
+
+
+	</div> <!-- end jumbotron container-fluid -->
+</div> <!-- end container-fluid -->
+<!---------------------------- END BODY ---------------------------->
+
+
+<!---------------------------- FOOTER ---------------------------->
+<footer class="panel-footer shadow-effect">
+	<div class="container-fluid" id="footer-container">
+		<div class="footer-copyright text-center">
+			<p> <!-- SOCIAL LINKS -->
+				<a class="social-icon" href="https://www.linkedin.com/in/duanchen-liu" target="_blank"> <img src="images/linkedin.svg" title="LinkedIn" height="20"></a>
+				<a class="social-icon" href="https://github.com/duanchenliu"  target="_blank"> <img src="images/github.svg" title="Github" height="20"></a>
+				<a class="social-icon" href="mailto:duanchen.liu@gmail.com"  target="_blank"> <img src="images/mail.svg" title="Email" height="20"></a>
+			</p>
+			<p id="my-copyright">&copy; 2021 Duanchen Liu</p>
+			<!-- <p id="languages" style="margin-bottom: 1rem;">
+				<a href="" onclick="window.location.href = ''; window.location.reload(true);">English</a>
+				<a href="#de" onclick="window.location.href = '#de'; window.location.reload(true);">Deutsch</a>
+			</p> -->
+			
+		</div> <!-- end footer-copyright -->
+	</div> <!-- end container-fluid -->
+</footer>
+<!---------------------------- END FOOTER ---------------------------->
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+	// TRANSLATIONS
+	var language = {
+		de: {
+			description: '(eine persönliche website)',
+			navAbout: 'info',
+			navWork: 'arbeit',
+			navProjects: 'projekte',
+			navIpaAbout: '/ˈɪnfoː/',
+			navIpaWork: '/ˈaʁbaɪ̯t/',
+			navIpaProjects: '/pʁoˈjɛktə/',
+			navSchool: 'Uni',
+			navResume: 'Lebenslauf',
+
+			research: 'Forschung',
+			researchintro: "Seit meinem zweiten Studienjahr forsche ich mit Professor Prud'hommeaux vom Fachbereich Informatik, und es hat mir viel Spaß gemacht. Hier sind einige der Projekte, an denen wir arbeiten:",
+			aapld: 'Automatisierte Analyse der pragmatischen Sprachentwicklung bei Autismus',
+			aapldtext: 'Autismus-Spektrum-Störung (ASS) ist eine neurologische Entwicklungsstörung, die mit lebenslangen Kommunikationsdefiziten verbunden ist und sowohl das persönliche als auch das berufliche Wohlbefinden beeinträchtigen kann. Obwohl die sprachlichen Merkmale, die mit diesen Defiziten verbunden sind, routinemässig in klinischen Situationen beobachtet werden, sind sie schwer zu quantifizieren. Für unsere Forschung sammeln wir einen wachsenden Datensatz von Gesprächen zwischen hochfunktionellen Erwachsenen mit ASS und ihren neurotypischen Gesprächspartnern, während sie verschiedene kollaborative Aufgaben erfüllen. Wir verwenden sowohl manuell annotierte Merkmale als auch rechnerisch vorhergesagte Merkmale, um die sprachlichen Merkmale der beiden Gruppen zu vergleichen.',
+			animals: 'Automatisierte Sprachanalyse für Demenz-Screening',
+			animalstext: 'Eine übliche Methode zur Früherkennung von Demenz ist die Durchführung eines verbalen Fluenztests, bei dem der Patient eine semantische oder phonetische Kategorie erhält und eine Minute Zeit hat, um Wörter aufzulisten, die zu dieser Kategorie gehören. In diesem Projekt werden Wortvektoren verwendet, um die Fluenztests automatisch zu analysieren, so dass Spezialisten die Daten nicht mehr manuell analysieren müssen. Mit "Tieren" als semantischem Thema sammeln wir verbale Fluenztestdaten von Teilnehmern verschiedener Altersgruppen, mit und ohne Demenz. Die Kosinus-Ähnlichkeit zwischen jedem Paar benachbarter Tiere in den Daten wird dann durch Vektorraummodelle erzeugt, um festzustellen, ob ein neues Unterthema begonnen hat. Wir verwenden mehrere vortrainierte Modelle, um die Wortvektoren zu generieren. Wir verwenden Algorithmen wie fastText, word2vec, gensim und GloVe, und wir sammeln auch domänenspezifische Daten aus Wikipedia, auf denen neue Modelle trainiert werden.'
+		}
+	};
+
+	// SWITCH LANGUAGES
+	if (window.location.hash) {
+		if (window.location.hash == '#de') {
+			for (var item in language.de) {
+				$('#'+item).text(language.de[item])
+			}
+			$('a.nav-link, a.navbar-dropdown-item, #navIndexUrl').each(function() {
+				var _href = $(this).attr('href')
+				$(this).attr('href', _href + '#de')
+			})
+		}
+	}
+</script>
+	
+</body>
+</html>

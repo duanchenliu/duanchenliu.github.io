@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media_queries.css" type="text/css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163440366-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163440366-1');
+	</script>
+
+	<!-- SITE INFO -->
+	<title>Duanchen Liu</title>
+	<meta name="description" content="a personal website" />
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="images/Dora/icon_small1.png" sizes="96x96">>
+</head>
+
+
+
+<body>
+<!---------------------------- HEADER ---------------------------->
+<header>
+	<!-- TITLE HEADER -->
+	<div class="container-fluid" style="padding: 0; width: 100%;">
+		<div class="jumbotron text-center">
+			<!-- SECRET
+			<div id="secret-container">
+				<a id="secret" href="https://yingyangle.web.app" target="_blank">(random stuff)</a>
+			</div> -->
+			<!-- TITLE -->
+			<div id="title-container">
+				<a id="navIndexUrl" href='index.html'>
+					<div id="title" onclick="window.location.reload(true);">Duanchen Liu</div>
+					<div id="title-ipa">刘端辰</div>
+				</a> <!-- end index.html link -->
+			</div> <!-- end title-container -->
+			<p id="description" align="center">(a personal website)</p> <!-- end description -->
+		</div> <!-- end jumbotron -->
+	</div> <!-- end container-fluid -->
+	<!-- end title -->
+	
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-sm navbar-light shadow-effect" id="my-navbar">
+	<div class="container-fluid">
+		<!-- HAMBURGER BUTTON -->
+		<button id="hamburger" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsed-nav-items" aria-controls="collapsed-nav-items" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="icon-bar top-bar"></span>
+			<span class="icon-bar middle-bar"></span>
+			<span class="icon-bar bottom-bar"></span>
+		</button>
+		<!-- NAVIGATION ITEMS -->
+		<div class="collapse navbar-collapse" id="collapsed-nav-items">
+			<ul class="navbar-nav mr-auto" id="nav-items">
+				<!-- ABOUT -->
+				<li class="nav-item dropdown">
+					<a id="navAboutUrl" class="nav-link" href="about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navAbout">about</div>
+							<div class="nav-ipa" id="navIpaAbout">/əˈbaʊt/</div>
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+					<div class="navbar-dropdown-content" aria-labelledby="navbarDropdown">
+						<a class="navbar-dropdown-item" id="navSchool" href="school.html">school</a>
+						<a class="navbar-dropdown-item" id="navResume" href="resume.html">resume</a>
+					</div> <!-- end dropdown -->
+				</li> <!-- end nav-item -->
+				<!-- WORK -->
+				<li class="nav-item dropdown">
+					<a id="navWorkUrl" class="nav-link" href="work.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navWork">work</div>
+							<div class="nav-ipa" id="navIpaWork">/wɝk/</div>
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+				<!-- PROJECTS -->
+				<li class="nav-item dropdown">
+					<a id="navProjectsUrl" class="nav-link" href="projects.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon menu-icon-fill"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navProjects">projects</div>
+							<div class="nav-ipa" id="navIpaProjects">/ˈpɹɑdˌʒɛkts/</div>
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+				<!-- DESIGN -->
+				<li class="nav-item dropdown">
+					<a id="navDesignUrl" class="nav-link" href="design.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navDesign">design</div>
+							<div class="nav-ipa" id="navIpaDesign">/dɪˈzaɪn/</div>
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+			</ul> <!-- END NAV-ITEMS (navbar-nav mr-auto) -->
+		</div> <!-- end navbar-collapse -->
+	</div> <!-- end container-fluid -->
+	</nav> <!-- end navbar-light -->
+</header>
+<!---------------------------- END HEADER ---------------------------->
+
+
+<!---------------------------- BODY ---------------------------->
+
+<!-- LIGHTBOX OVERLAY -->
+<div id="overlay" class="text-center" aria-hidden="true">
+	<div id="overlay-container">
+		<div id="overlay-text"></div>
+		<img id="image-overlay" width=50%></img>
+		<br><br>
+		<div id="overlay-tip">Use the left and right arrows to navigate through the images.</div>
+		<br><br><br>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="jumbotron container-fluid shadow-effect" id="main-content">
+
+		<!-- THE GERMAN LANGUAGE -->
+		<div>
+			<h1 id="germviz" class="inline">The German Language </h1>
+			<a class="social-icon-white" href="https://github.com/yingyangle/german-viz" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+			<a class="social-icon-white" href="http://yingyangle.github.io/german-viz" target="_blank"><img src="images/link.svg" title="(link to project)" class="icon-right" width="36rem"></a>
+		</div>
+		<p id="germvizwinner" style="margin-bottom: 26px;">(Best Project Winner, Visualization Fall 2020, Prof. Nam Wook Kim)</p>
+		<p id="germviztext" class="upper-more">German is a fascinating language to study, but it can also be difficult at times. Students of German often spend many hours memorizing the gender and plural form for each noun. This project aims to visualize the German language and help students find patterns for recognizing the gender and plurals of German nouns. By presenting several interactive analytical tools, this project allows the user to explore the different ways morphological endings correspond with gender and plural formation. The site also introduces beginners to some background about German, why it's interesting to study, as well as some basic grammar and syntax. 
+		</p>
+
+		<div class="row image-row">
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/germviz6.png" class="image" title="plural formation patterns in German visualized using a Sankey diagram, bubble chart, and pie chart with interactive filtering capabilities" data-caption="plural formation patterns in German visualized using a Sankey diagram, bubble chart, and pie chart with interactive filtering capabilities">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/germviz2.png" class="image" title="an interactive activity showing some fun and interesting compound words in German" data-caption="an interactive activity showing some fun and interesting compound words in German">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/germviz1.png" class="image" title="an interactive activity showing some Germanic words and the English words that come from them" data-caption="an interactive activity showing some Germanic words and the English words that come from them">
+				</div> <!-- end image-container -->
+				<br>
+			</div>
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/germviz4.png" class="image" title="morphological gender patterns in German visualized using an interactive ternary plot" data-caption="morphological gender patterns in German visualized using an interactive ternary plot">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/germviz3.png" class="image" title="a map visualizing the distribution of native German speakers and second language learners of German" data-caption="a map visualizing the distribution of native German speakers and second language learners of German">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/germviz7.png" class="image" title="an interactive dragging activity showing the effects of word order in German syntax" data-caption="an interactive dragging activity showing the effects of word order in German syntax">
+				</div> <!-- end image-container -->
+			</div>
+		</div>
+		<br><br><br>
+
+		<!-- THE FOX -->
+		<div>
+			<h1 id="fox" class="inline">The Fox</h1>
+			<a class="social-icon-white" href="https://github.com/yingyangle/fox" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+			<a class="social-icon-white" href="http://yingyangle.github.io/fox" target="_blank"><img src="images/link.svg" title="(link to project)" class="icon-right" width="36rem"></a>
+		</div>
+		<p id="foxtext" class="upper-more">What kinds of characteristics and motifs do we associate with the fox in our culture? Often known as sly, cunning, and clever, the fox is a frequent character seen in anthropomorphic narratives both ancient and modern. For my Beast Literature class project I investigate the origins of these common attitudes by looking at depictions of the fox in classical fable, mythology, and writings from natural historians such as Aelian, Aristotle, and Pliny the Elder. 
+		</p>
+
+		<div class="row image-row">
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/fox1.png" class="image" title="chord diagram showing frequency of interactions between animals in Aesop's fables" data-caption="chord diagram showing frequency of interactions between animals in Aesop's fables">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/fox3.png" class="image" title="bubble chart visualizing which words people most commonly associate with the fox (data taken from a survey)" data-caption="bubble chart visualizing which words people most commonly associate with the fox (data taken from a survey)">
+				</div> <!-- end image-container -->
+				<br>
+			</div>
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/fox2.png" class="image" title="interactive map showing stories of the fox around the world" data-caption="interactive map showing stories of the fox around the world">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/fox5.png" class="image" title="interactive text box for the user to learn about the fox's relationships with different animals" data-caption="interactive text box for the user to learn about the fox's relationships with different animals">
+				</div> <!-- end image-container -->
+				<br>
+				<div class="image-container">
+					<img src="images/fox4.png" class="image" title="frequency of adjectives used to describe foxes in literature (data extracted using spaCy and Project Gutenberg)" data-caption="frequency of adjectives used to describe foxes in literature (data extracted using spaCy and Project Gutenberg)">
+				</div> <!-- end image-container -->
+				<br>
+			</div>
+		</div>
+		<br><br><br>
+
+		<!-- RDM DASHBOARD -->
+		<div>
+			<h1 id="rdm" class="inline">RDM Dashboard </h1>
+			<a class="social-icon-white" href="https://github.com/lotus-project/RDM_map" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+		</div>
+		<p id="rdmtext" class="upper-more">The Rural Development Model (RDM) is a framework for economic development in a rural area with the goal of allowing the area to achieve self-sustained growth. The model was developed by Lotus Project, a non-profit organization working on projects to promote economic growth in rural communities in Vietnam and other developing countries. During my internship at Lotus Project we created an interactive dashboard to visualize the RDM Suitability Index, which describes the suitability of a certain area for undergoing the RDM Framework. Using this metric, we can more easily identify the best areas in which to further expand the project. The metric is calculated using data from publicly available datasets, which are then aggregated into categorical metrics to describe the main factors involved, such as economic, environmental, and cultural.</p>
+
+		<div class="row image-row">
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/rdm1.png" class="image" title="a screenshot of the RDM Dashboard (WIP)" data-caption="a screenshot of the RDM Dashboard (WIP)">
+				</div> <!-- end image-container -->
+			</div>
+			<div class="col-md-6">
+				<div class="image-container">
+					<img src="images/rdm2.png" class="image" title="a screenshot of the RDM Dashboard (WIP)" data-caption="a screenshot of the RDM Dashboard (WIP)">
+				</div> <!-- end image-container -->
+			</div>
+		</div>
+		<br><br><br>
+
+		<!-- FRAKTUR CRACKER -->
+		<div>
+			<h1 id="fraktur" class="inline">Fraktur Cracker </h1>
+			<a class="social-icon-white" href="https://github.com/yingyangle/fraktur" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+		</div>
+		<p id="frakturtext" class="upper-more">Fraktur is a blackletter typeface commonly used in German texts up until the mid-20th century. The ability to automatically transcribe texts printed in Fraktur would enable scholars to more efficiently work with and analyze historical texts. Performing optical character recognition on historical texts in particular poses additional challenges resulting from broken characters, scan quality, and spelling variations. This project aims to apply a simple similarity-based approach to the optical character recognition of individual Fraktur letters. Using a zoning-based black pixel density feature we were able to achieve approximately 92% accuracy using a k-NN classifier.</p>
+		<div class="image-container">
+			<img src="images/fraktur1.png" class="image" title="a sample of the dataset" data-caption="a sample of the dataset">
+		</div> <!-- end image-container -->
+		<br>
+		<div class="image-container">
+			<img src="images/fraktur2.png" class="image" title="illustrating the black pixel density feature and the edge to contour distance feature" data-caption="illustrating the black pixel density feature and the edge to contour distance feature">
+		</div> <!-- end image-container -->
+		<br><br><br>
+
+		<!-- WHO SAID THAT -->
+		<div>
+			<h1 id="wst" class="inline">Who Said That?</h1>
+			<a class="social-icon-white" href="https://github.com/yingyangle/whosaidthat" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+		</div>
+		<p id="wsttext" class="upper-more">Authorship attribution often relies upon the writing style, vocabulary, and topics of interest among different writers, however these factors are more difficult to ascertain when analyzing shorter documents. This project experiments with different methods of authorship attribution on shorter texts, using lines of dialogue from TV shows to try and predict the speaker of each line. We explore two sets of features, one consisting of manually selected linguistic features, and the other consisting of sentence embeddings generated from the Google News word2vec model. Of the three algorithms tested, we found that using sentence embeddings with a logistic regression algorithm generally yielded the highest accuracy for each show. We also observed some interesting differences in how the show's genre affected the accuracy of the predictions.</p>
+
+		<div class="image-container">
+			<img src="images/wst1.png" class="image" title="word and utterance length for characters in The Big Bang Theory" data-caption="word and utterance length for characters in The Big Bang Theory">
+		</div> <!-- end image-container -->
+		<br>
+		<div class="image-container">
+			<img src="images/wst2.png" class="image" title="most frequent words for Ned Flanders (left) and Homer Simpson (right)" data-caption="most frequent words for Ned Flanders (left) and Homer Simpson (right)">
+		</div> <!-- end image-container -->
+		<br><br><br>
+
+
+	</div> <!-- end jumbotron container-fluid -->
+</div> <!-- end container-fluid -->
+
+
+<!---------------------------- END BODY ---------------------------->
+
+
+<!---------------------------- FOOTER ---------------------------->
+<footer class="panel-footer shadow-effect">
+	<div class="container-fluid" id="footer-container">
+		<div class="footer-copyright text-center">
+			<p> <!-- SOCIAL LINKS -->
+				<a class="social-icon" href="https://www.linkedin.com/in/duanchen-liu" target="_blank"> <img src="images/linkedin.svg" title="LinkedIn" height="20"></a>
+				<a class="social-icon" href="https://github.com/duanchenliu"  target="_blank"> <img src="images/github.svg" title="Github" height="20"></a>
+				<a class="social-icon" href="mailto:duanchen.liu@gmail.com"  target="_blank"> <img src="images/mail.svg" title="Email" height="20"></a>
+			</p>
+			<p id="my-copyright">&copy; 2021 Duanchen Liu</p>
+			<!-- <p id="languages" style="margin-bottom: 1rem;">
+				<a href="" onclick="window.location.href = ''; window.location.reload(true);">English</a>
+				<a href="#de" onclick="window.location.href = '#de'; window.location.reload(true);">Deutsch</a>
+			</p> -->
+			
+		</div> <!-- end footer-copyright -->
+	</div> <!-- end container-fluid -->
+</footer>
+<!---------------------------- END FOOTER ---------------------------->
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script src="js/lightbox.js"></script> -->
+<script src="js/script.js"></script>
+<!--  -->
+<script>
+	// TRANSLATIONS
+	var language = {
+		de: {
+			description: '(eine persönliche website)',
+			navAbout: 'info',
+			navWork: 'arbeit',
+			navProjects: 'projekte',
+			navIpaAbout: '/ˈɪnfoː/',
+			navIpaWork: '/ˈaʁbaɪ̯t/',
+			navIpaProjects: '/pʁoˈjɛktə/',
+			navSchool: 'Uni',
+			navResume: 'Lebenslauf',
+
+			germviz: 'Die Deutsche Sprache',
+			germvizwinner: '(Gewinner des Best Class Project, Herbst 2020)',
+			germviztext: 'Deutsch ist eine faszinierende Sprache zum Lernen, aber es kann manchmal auch schwierig sein. Deutschschüler verbringen oft viele Stunden damit, sich das Geschlecht und die Pluralform für jedes deutsche Substantiv zu merken. Dieses Projekt zielt darauf ab, die deutsche Sprache zu visualisieren, um den Schülern zu helfen, Muster für Geschlecht und Pluralformen in deutschen Substantiven zu finden. Durch die Präsentation einger interaktiver Analysewerkzeuge ermöglicht dieses Projekt dem Benutzer, die verschiedenen Arten zu untersuchen, in denen morphologische Endungen mit der Bildung von Geschlecht und Plural korrespondieren. Die Seite führt Anfänger auch in einige Hintergrundinformationen über Deutsch ein, warum es interessant zu lernen ist, und in einige grundlegende Grammatik und Syntax.',
+			rdmtext: 'Das Rural Development Model (RDM) ist ein Rahmen für die wirtschaftliche Entwicklung in einem ländlichen Gebiet mit dem Ziel, dem Gebiet ein selbsttragendes Wachstum zu ermöglichen. Das Modell wurde von Lotus Project entwickelt, einer gemeinnützigen Organisation, die an Projekten zur Förderung des Wirtschaftswachstums in ländlichen Gemeinden in Vietnam und anderen Entwicklungsländern arbeitet. Während meines Praktikums bei Lotus Project haben wir ein interaktives Dashboard erstellt, um den RDM-Eignungsindex zu visualisieren, der die Eignung eines bestimmten Bereichs für die Durchführung des RDM-Frameworks beschreibt. Mit dieser Metrik können wir leichter die besten Bereiche identifizieren, in denen das Projekt weiter ausgebaut werden kann. Die Metrik wird anhand von Daten aus öffentlich verfügbaren Datensätzen berechnet, die dann zu kategorialen Metriken zusammengefasst werden, um die wichtigsten Faktoren wie Wirtschaft, Umwelt und Kultur zu beschreiben.',
+			fraktur: 'Fraktur Knacker',
+			frakturtext: 'Die Fraktur ist eine gebrochene Schrift, die bis Mitte des 20. Jahrhunderts in deutschen Texten gebräuchlich war. Die Fähigkeit, in Fraktur gedruckte Texte automatisch zu transkribieren, würde es Wissenschaftlern ermöglichen, mit historischen Texten effizienter zu arbeiten und sie zu analysieren. Texten bringt zusätzliche Herausforderungen mit sich, wie z.B. gebrochene Buchstaben, Scanqualität und Rechtschreibvarianten. Dieses Projekt wendet einen einfachen, auf Ähnlichkeit basierenden Ansatz für die optische Zeichenerkennung einzelner Fraktur-Buchstaben an. Unter Verwendung eines Merkmals mit schwarzer Pixeldichte konnten wir mit einem k-NN-Klassifikator eine Genauigkeit von etwa 92% erreichen.',
+			wst: 'Wer hat das gesagt',
+			wsttext: 'Die Zuordnung der Autorenschaft hängt oft vom Schreibstil, dem Vokabular und den Themen ab. Diese Faktoren sind jedoch bei der Analyse kürzerer Dokumente schwieriger zu ermitteln. Dieses Projekt experimentiert mit verschiedenen Methoden der Autorschaftszuordnung bei kürzeren Texten, wobei Dialogzeilen aus Fernsehsendungen verwendet werden, um zu versuchen, den Sprecher jeder Zeile vorherzusagen. Wir untersuchen zwei Sätze von Merkmalen. Wir untersuchen sowohl manuell ausgewählte linguistische Merkmale als auch Satzeinbettungsmerkmale, die aus dem word2vec-Modell von Google News generiert wurden. Von den drei getesteten Algorithmen stellten wir fest, dass die Satzeinbettungen mit einem logistischen Regressionsalgorithmus im Allgemeinen die höchste Genauigkeit ergab. Wir beobachteten auch einige interessante Unterschiede darin, wie das Genre der Sendung die Genauigkeit der Vorhersagen beeinflusst.'
+		}
+	};
+	
+	// SWITCH LANGUAGES
+	if (window.location.hash) {
+		if (window.location.hash == '#de') {
+			for (var item in language.de) {
+				$('#'+item).text(language.de[item])
+			}
+			$('a.nav-link, a.navbar-dropdown-item, #navIndexUrl').each(function() {
+				var _href = $(this).attr('href')
+				$(this).attr('href', _href + '#de')
+			})
+		}
+	}
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media_queries.css" type="text/css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163440366-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163440366-1');
+	</script>
+
+	<!-- SITE INFO -->
+	<title>Duanchen Liu</title>
+	<meta name="description" content="a personal website" />
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="images/Dora/icon_small1.png" sizes="96x96">
+</head>
+
+
+
+<body>
+<!---------------------------- HEADER ---------------------------->
+<header>
+<!-- TITLE HEADER -->
+<div class="container-fluid" style="padding: 0; width: 100%;">
+	<div class="jumbotron text-center">
+		<!-- SECRET
+		<div id="secret-container">
+			<a id="secret" href="https://yingyangle.web.app" target="_blank">(random stuff)</a>
+		</div> -->
+		<!-- TITLE -->
+		<div id="title-container">
+			<a id="navIndexUrl" href='index.html'>
+				<div id="title" onclick="window.location.reload(true);">Duanchen Liu</div>
+				<div id="title-ipa">刘端辰</div>
+			</a> <!-- end index.html link -->
+		</div> <!-- end title-container -->
+		<p id="description" align="center">(a personal website)</p> <!-- end description -->
+	</div> <!-- end jumbotron -->
+</div> <!-- end container-fluid -->
+<!-- end title -->
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-sm navbar-light shadow-effect" id="my-navbar">
+<div class="container-fluid">
+	<!-- HAMBURGER BUTTON -->
+	<button id="hamburger" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsed-nav-items" aria-controls="collapsed-nav-items" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="icon-bar top-bar"></span>
+		<span class="icon-bar middle-bar"></span>
+		<span class="icon-bar bottom-bar"></span>
+	</button>
+	<!-- NAVIGATION ITEMS -->
+	<div class="collapse navbar-collapse" id="collapsed-nav-items">
+		<ul class="navbar-nav mr-auto" id="nav-items">
+			<!-- ABOUT -->
+			<li class="nav-item dropdown">
+				<a id="navAboutUrl" class="nav-link" href="about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navAbout">about</div>
+						<div class="nav-ipa" id="navIpaAbout">/əˈbaʊt/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+				<div class="navbar-dropdown-content" aria-labelledby="navbarDropdown">
+					<a class="navbar-dropdown-item" id="navSchool" href="school.html">school</a>
+					<a class="navbar-dropdown-item" id="navResume" href="resume.html">resume</a>
+				</div> <!-- end dropdown -->
+			</li> <!-- end nav-item -->
+			<!-- WORK -->
+			<li class="nav-item dropdown">
+				<a id="navWorkUrl" class="nav-link" href="work.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navWork">work</div>
+						<div class="nav-ipa" id="navIpaWork">/wɝk/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+			<!-- PROJECTS -->
+			<li class="nav-item dropdown">
+				<a id="navProjectsUrl" class="nav-link" href="projects.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navProjects">projects</div>
+						<div class="nav-ipa" id="navIpaProjects">/ˈpɹɑdˌʒɛkts/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+			<!-- DESIGN -->
+			<li class="nav-item dropdown">
+				<a id="navDesignUrl" class="nav-link" href="design.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="menu-icon menu-icon-fill"></div>
+					<div class="nav-container" style="width: 100px;">
+						<div class="nav-text" id="navDesign">design</div>
+						<div class="nav-ipa" id="navIpaDesign">/dɪˈzaɪn/</div>
+					</div> <!-- end nav-container -->
+				</a> <!-- end nav-link -->
+			</li> <!-- end nav-item -->
+		</ul> <!-- END NAV-ITEMS (navbar-nav mr-auto) -->
+	</div> <!-- end navbar-collapse -->
+</div> <!-- end container-fluid -->
+</nav> <!-- end navbar-light -->
+</header>
+<!---------------------------- END HEADER ---------------------------->
+
+
+<!---------------------------- BODY ---------------------------->
+
+<!-- LIGHTBOX OVERLAY -->
+<div id="overlay" class="text-center" aria-hidden="true">
+	<div id="overlay-container">
+		<div id="overlay-text"></div>
+		<img id="image-overlay"></img>
+		<br><br>
+		<div id="overlay-tip">Use the left and right arrows to navigate through the images.</div>
+		<br><br><br>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="jumbotron container-fluid shadow-effect" id="main-content">
+
+	<!-- GRAPHIC DESIGN -->
+	<h1 class="inline">Graphic Design</h1>
+	<p>Here are some pieces I made for my Graphic Design course using Adobe Illustrator, Photoshop, and InDesign.</p>
+	<br>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_o2.3_shell.png" class="image" title="Type Play assignment - created using an uppercase letter 'O' (Adobe Illustrator)" data-caption="Type Play assignment - created using an uppercase letter 'O'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_o2.5_leaves.png" class="image" title="Type Play assignment - created using an uppercase letter 'O' (Adobe Illustrator)" data-caption="Type Play assignment - created using an uppercase letter 'O'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+	</div>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_o1.1_pattern.png" class="image" title="Type Play assignment - created using an uppercase letter 'O' (Adobe Illustrator)" data-caption="Type Play assignment - created using an uppercase letter 'O'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_o5.2_distance.png" class="image" title="Type Play assignment - created using an uppercase letter 'O' (Adobe Illustrator)" data-caption="Type Play assignment - created using an uppercase letter 'O'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+	</div>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_o6.3_blob.png" class="image" title="Type Play assignment - created using an uppercase letter 'O' (Adobe Illustrator)" data-caption="Type Play assignment - created using an uppercase letter 'O'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/typeplay_i1.2_static.png" class="image" title="Type Play assignment - created using a lowercase letter 'i' (Adobe Illustrator)" data-caption="Type Play assignment - created using a lowercase letter 'i'<br>(Adobe Illustrator)">
+			</div> <!-- end image-container -->
+		</div>
+	</div>
+	<br>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/koi_drawing_final.png" class="image" title="InDesign drawing assignment - created using ellipses (Adobe InDesign)" data-caption="InDesign drawing assignment - created using ellipses<br>(Adobe InDesign)<br>based on <a href='https://www.art.com/products/p19347952008-sa-i1715655/maureen-love-koi-pond-ii.htm' target='_blank'>this</a> reference photo">
+			</div> 
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/flatearth.png" class="image" title="Flat Earth Poster" data-caption="Flat Earth Poster">
+			</div> 
+		</div>
+	</div>
+	<!-- <br>
+	<div class="image-container">
+		<img src="images/koi_drawing_final.png" class="image" title="InDesign Drawing assignment - created using ellipses (Adobe InDesign)" data-caption="InDesign Drawing assignment - created using ellipses<br>(Adobe InDesign)<br>based on <a href='https://www.art.com/products/p19347952008-sa-i1715655/maureen-love-koi-pond-ii.htm' target='_blank'>this</a> reference photo">
+	</div> -->
+	<br><br>
+
+	<!-- QUICKFLIX MOVIES WEBSITE -->
+	<div>
+		<h1 id="germviz" class="inline">Quickflix </h1>
+		<a class="social-icon-white" href="https://github.com/yingyangle/movies" target="_blank"><img src="images/mygithub.svg" title="(github)" class="icon-right" width="36rem"></a>
+		<a class="social-icon-white" href="http://yingyangle.github.io/movies" target="_blank"><img src="images/link.svg" title="(link to project)" class="icon-right" width="36rem"></a>
+	</div>
+	<p class="upper-more">This was an exercise in designing a mock movies website and a video player with customized controls.</p>
+
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/movies1.png" class="image" title="movies website homepage" data-caption="movies website homepage">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/movies2.png" class="image" title="movies website card layout" data-caption="movies website card layout">
+			</div> <!-- end image-container -->
+		</div>
+	</div>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/movies3.png" class="image" title="movies website card layout" data-caption="movies website card layout">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/movies4.png" class="image" title="movies website video player" data-caption="movies website video player">
+			</div> <!-- end image-container -->
+			<br>
+		</div>
+	</div>
+	<br><br><br>
+
+	<!-- VISUALIZATION LABS -->
+	<h1 id="vizlabs" class="inline">Visualization Labs </h1>
+	<a class="social-icon-white" href="https://github.com/yingyangle/viz-labs" target="_blank"><img src="images/github.svg" title="(link to github)" class="icon-right" width="30rem"></a>
+	<a class="social-icon-white" href="http://yingyangle.github.io/viz-labs" target="_blank"><img src="images/link.svg" title="(link to visualization labs)" class="icon-right" width="30rem"></a>
+	<br>
+	<p id="vizlabstext">For my visualization course, I created a number of interactive visualizations primarily using d3. These labs were designed for us to practice our technical skills and fluency in d3, so each lab is relatively simple and focuses on certain techniques and capabilites of d3 such as scales and axes, update pattern, brush and zoom, animated transitions, and maps.</p>
+
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/lab6.png" class="image" title="stacked area charts showing unemployment by industry" data-caption="stacked area charts showing unemployment by industry">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/lab8.png" class="image" title="conneted scatter plot visualizing cost of gas and driving habits" data-caption="conneted scatter plot visualizing cost of gas and driving habits">
+			</div> <!-- end image-container -->
+		</div>
+	</div>
+	<div class="row image-row">
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/lab7.png" class="image" title="map visualizing connections between international airports" data-caption="map visualizing connections between international airports">
+			</div> <!-- end image-container -->
+		</div>
+		<div class="col-md-6">
+			<div class="image-container">
+				<img src="images/lab4.png" class="image" title="scatter plot showing the average income and life expectancy for different countries" data-caption="scatter plot showing the average income and life expectancy for different countries">
+			</div> <!-- end image-container -->
+			<br>
+		</div>
+	</div>
+	<br><br><br>
+
+	<!-- VISUALIZATION MINI PROJECTS -->
+	<h1 id="vizprojects" class="inline">Visualization Mini Projects </h1>
+	<a class="social-icon-white" href="https://github.com/yingyangle/viz-miniprojects" target="_blank"><img src="images/github.svg" title="(link to github)" class="icon-right" width="30rem"></a>
+	<a class="social-icon-white" href="http://yingyangle.github.io/viz-miniprojects" target="_blank"><img src="images/link.svg" title="(link to visualization mini projects)" class="icon-right" width="30rem"></a>
+	<br>
+	<p id="vizprojectstext">A major part of visualization is cohesive and effective storytelling. In my visualization class, we collaborated as a group on mini projects to create communicative and interactive visualizations exploring datasets of personal interest to us. We also practiced analyzing and redesigning visualizations using the principles of design and visual encoding we talked about in class. For these projects, we used d3 and Tableau to create our visualizations.</p>
+	<div class="image-container">
+		<img src="images/viz_miniprojects.png" class="image" title="a look at my visualization mini projects" data-caption="a look at my visualization mini projects">
+	</div> <!-- end image-container -->
+	<br><br>
+
+	<!-- ART -->
+	<h1 id="art" class="inline">Art</h1>
+	<p id="arttext">I've always enjoyed drawing and painting. This is some of my artwork over the years.</p>
+	<br>
+	<div class="image-container">
+		<img src="images/art.png" class="image" title="a look at some of my art" data-caption="a look at some of my art">
+	</div> <!-- end image-container -->
+	<br><br>
+
+	</div> <!-- end jumbotron container-fluid -->
+</div> <!-- end container-fluid -->
+<!---------------------------- END BODY ---------------------------->
+
+
+<!---------------------------- FOOTER ---------------------------->
+<footer class="panel-footer shadow-effect">
+	<div class="container-fluid" id="footer-container">
+		<div class="footer-copyright text-center">
+			<p> <!-- SOCIAL LINKS -->
+				<a class="social-icon" href="https://www.linkedin.com/in/duanchen-liu" target="_blank"> <img src="images/linkedin.svg" title="LinkedIn" height="20"></a>
+				<a class="social-icon" href="https://github.com/duanchenliu"  target="_blank"> <img src="images/github.svg" title="Github" height="20"></a>
+				<a class="social-icon" href="mailto:duanchen.liu@gmail.com"  target="_blank"> <img src="images/mail.svg" title="Email" height="20"></a>
+			</p>
+			<p id="my-copyright">&copy; 2021 Duanchen Liu</p>
+			<!-- <p id="languages" style="margin-bottom: 1rem;">
+				<a href="" onclick="window.location.href = ''; window.location.reload(true);">English</a>
+				<a href="#de" onclick="window.location.href = '#de'; window.location.reload(true);">Deutsch</a>
+			</p> -->
+			
+		</div> <!-- end footer-copyright -->
+	</div> <!-- end container-fluid -->
+</footer>
+<!---------------------------- END FOOTER ---------------------------->
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+	// TRANSLATIONS
+	var language = {
+		de: {
+			description: '(eine persönliche website)',
+			navAbout: 'info',
+			navWork: 'arbeit',
+			navProjects: 'projekte',
+			navIpaAbout: '/ˈɪnfoː/',
+			navIpaWork: '/ˈaʁbaɪ̯t/',
+			navIpaProjects: '/pʁoˈjɛktə/',
+			navSchool: 'Uni',
+			navResume: 'Lebenslauf',
+
+			vizlabs: 'Visualisierungslabors',
+			vizlabstext: 'Für meinen Visualisierungskurs habe ich eine Reihe interaktiver Visualisierungen hauptsächlich mit d3 erstellt. Diese Labore wurden für uns entwickelt, um unsere technischen Fähigkeiten und Kenntnisse in d3 zu üben. Daher ist jedes Labor relativ einfach und konzentriert sich auf bestimmte Techniken und Fähigkeiten von d3 wie Skalen und Achsen, Aktualisierungsmuster, Pinsel und Zoom, animierte Übergänge und Karten.',
+			vizprojects: 'Visualisierung Mini-Projekte',
+			vizprojectstext: 'Ein wesentlicher Teil der Visualisierung ist das zusammenhängende und effektive Geschichtenerzählen. In meinem Visualisierungskurs haben wir als Gruppe an Miniprojekten zusammengearbeitet, um kommunikative und interaktive Visualisierungen zu erstellen, die Datensätze untersuchen, die für uns von persönlichem Interesse sind. Wir haben auch das Analysieren und Neugestalten von Visualisierungen unter Verwendung der Prinzipien des Designs und der visuellen Codierung geübt, über die wir im Unterricht gesprochen haben. Für diese Projekte haben wir d3 und Tableau verwendet, um unsere Visualisierungen zu erstellen.',
+			art: 'Kunst',
+			arttext: 'Ich habe immer gerne gezeichnet und gemalt. Dies ist ein Teil meiner Kunstwerke im Laufe der Jahre.',
+		}
+	};
+	
+	// SWITCH LANGUAGES
+	if (window.location.hash) {
+		if (window.location.hash == '#de') {
+			for (var item in language.de) {
+				$('#'+item).text(language.de[item])
+			}
+			$('a.nav-link, a.navbar-dropdown-item, #navIndexUrl').each(function() {
+				var _href = $(this).attr('href')
+				$(this).attr('href', _href + '#de')
+			})
+		}
+	}
+</script>
+	
+</body>
+</html>

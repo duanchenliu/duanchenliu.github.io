@@ -232,6 +232,12 @@ a:hover .image {
 	cursor: pointer;
 }
 
+.video-container {
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+
 .image-container .image {
 	max-width: 400px;
 	max-height: 400px;

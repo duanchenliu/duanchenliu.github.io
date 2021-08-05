@@ -450,7 +450,10 @@ a:hover .image {
 	background-color: #BBD6AD;
 }
 
-
+.course3 {
+	/*background-color: var(--my-blue);*/
+	background-color: #f0be74;
+}
 /********************** CONTACT FORM **********************/
 form .row {
 	max-width: 500px;

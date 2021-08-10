@@ -178,6 +178,11 @@ a:hover .image {
 	margin-top: -1rem;
 }
 
+.subtitle{
+	font-size: 22px;
+	font-weight: bold;
+}
+
 .number {
 	font-family: diggory; 
 	font-size: 22px;

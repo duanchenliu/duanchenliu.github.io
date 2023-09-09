@@ -14,6 +14,23 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/media_queries.css" type="text/css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163440366-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-163440366-1');
+	</script> -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WRZL6JQ');
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-206501498-1"></script>
 	<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -22,13 +39,7 @@
 
 		  gtag('config', 'UA-206501498-1');
 	</script>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-WRZL6JQ');
-		</script>
+
 	<!-- SITE INFO -->
 	<title>Duanchen Liu</title>
 	<meta name="description" content="a personal website" />
@@ -41,102 +52,103 @@
 <body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRZL6JQ"
-		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 <!---------------------------- HEADER ---------------------------->
 <header>
-<!-- TITLE HEADER -->
-<div class="container-fluid" style="padding: 0; width: 100%;">
-	<div class="jumbotron text-center">
-		<!-- SECRET
-		<div id="secret-container">
-			<a id="secret" href="https://yingyangle.web.app" target="_blank">(random stuff)</a>
-		</div> -->
-		<!-- TITLE -->
-		<div id="title-container">
-			<a id="navIndexUrl" href='index.html'>
-				<div id="title" onclick="window.location.reload(true);">Duanchen Liu</div>
-				<div id="title-ipa">刘端辰</div>
-			</a> <!-- end index.html link -->
-		</div> <!-- end title-container -->
-		<p id="description" align="center">I'm GPT-2.5 - a little bit advanced, a little bit vintage, and occasionally make no sense at all!</p> <!-- end description -->
-	</div> <!-- end jumbotron -->
-</div> <!-- end container-fluid -->
-<!-- end title -->
-
-<!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-sm navbar-light shadow-effect" id="my-navbar">
-<div class="container-fluid">
-	<!-- HAMBURGER BUTTON -->
-	<button id="hamburger" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsed-nav-items" aria-controls="collapsed-nav-items" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="icon-bar top-bar"></span>
-		<span class="icon-bar middle-bar"></span>
-		<span class="icon-bar bottom-bar"></span>
-	</button>
-	<!-- NAVIGATION ITEMS -->
-	<div class="collapse navbar-collapse" id="collapsed-nav-items">
-		<ul class="navbar-nav mr-auto" id="nav-items">
-			<!-- ABOUT -->
-			<li class="nav-item dropdown">
-				<a id="navAboutUrl" class="nav-link" href="about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-					<div class="menu-icon"></div>
-					<div class="nav-container" style="width: 100px;">
-						<div class="nav-text" id="navAbout">About</div>
-						<div class="nav-ipa" id="navIpaAbout">Me</div>
-					</div> <!-- end nav-container -->
-				</a> <!-- end nav-link -->
-				<div class="navbar-dropdown-content" aria-labelledby="navbarDropdown">
-					<a class="navbar-dropdown-item" id="navSchool" href="school.html">school</a>
-					<a class="navbar-dropdown-item" id="navResume" href="resume.html">resume</a>
-				</div> <!-- end dropdown -->
-			</li> <!-- end nav-item -->
-			<!-- WORK -->
-			<li class="nav-item dropdown">
-				<a id="navWorkUrl" class="nav-link" href="nlp.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-					<div class="menu-icon menu-icon-fill"></div>
-					<div class="nav-container" style="width: 100px;">
-						<div class="nav-text" id="navWork">NLP</div>
-						<div class="nav-ipa" id="navIpaWork">Research</div>
-					</div> <!-- end nav-container -->
-				</a> <!-- end nav-link -->
-			</li> <!-- end nav-item -->
-			<!-- DATA PROJECTS -->
-			<li class="nav-item dropdown">
-				<a id="navProjectsUrl" class="nav-link" href="datascience.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-					<div class="menu-icon"></div>
-					<div class="nav-container" style="width: 120px;">
-						<div class="nav-text" id="navProjects">Data</div>
-						<div class="nav-ipa" id="navIpaProjects">Science</div> 
-					</div> <!-- end nav-container -->
-				</a> <!-- end nav-link -->
-			</li> <!-- end nav-item -->
-			<!-- PROJECTS -->
-			<li class="nav-item dropdown">
-				<a id="navProjectsUrl" class="nav-link" href="visualization.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-					<div class="menu-icon"></div>
-					<div class="nav-container" style="width: 120px;">
-						<div class="nav-text" id="navProjects">Visualization</div>
-						<div class="nav-ipa" id="navIpaProjects">Projects</div>
-					</div> <!-- end nav-container -->
-				</a> <!-- end nav-link -->
-			</li> <!-- end nav-item -->
-			<!-- DESIGN -->
-			<li class="nav-item dropdown">
-				<a id="navDesignUrl" class="nav-link" href="passion.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-					<div class="menu-icon"></div>
-					<div class="nav-container" style="width: 100px;">
-						<div class="nav-text" id="navDesign">Passion</div>
-						<div class="nav-ipa" id="navIpaDesign">Hobbies</div>
-					</div> <!-- end nav-container -->
-				</a> <!-- end nav-link -->
-			</li> <!-- end nav-item -->
-		</ul> <!-- END NAV-ITEMS (navbar-nav mr-auto) -->
-	</div> <!-- end navbar-collapse -->
-</div> <!-- end container-fluid -->
-</nav> <!-- end navbar-light -->
+	<!-- TITLE HEADER -->
+	<div class="container-fluid" style="padding: 0; width: 100%;">
+		<div class="jumbotron text-center">
+			<!-- SECRET -->
+			<div id="secret-container">
+				<a id="secret" href="https://yingyangle.web.app" target="_blank">(random stuff)</a>
+			</div>
+			<!-- TITLE -->
+			<div id="title-container">
+				<a id="navIndexUrl" href='index.html'>
+					<div id="title" onclick="window.location.reload(true);">Duanchen Liu</div>
+					<div id="title-ipa">刘端辰</div>
+				</a> <!-- end index.html link -->
+			</div> <!-- end title-container -->
+			<p id="description" align="center"> I'm GPT-2.5 - a little bit advanced, a little bit vintage, and occasionally make no sense at all! </p> <!-- end description -->
+		</div> <!-- end jumbotron -->
+	</div> <!-- end container-fluid -->
+	<!-- end title -->
+	
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-sm navbar-light shadow-effect" id="my-navbar">
+	<div class="container-fluid">
+		<!-- HAMBURGER BUTTON -->
+		<button id="hamburger" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsed-nav-items" aria-controls="collapsed-nav-items" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="icon-bar top-bar"></span>
+			<span class="icon-bar middle-bar"></span>
+			<span class="icon-bar bottom-bar"></span>
+		</button>
+		<!-- NAVIGATION ITEMS -->
+		<div class="collapse navbar-collapse" id="collapsed-nav-items">
+			<ul class="navbar-nav mr-auto" id="nav-items">
+				<!-- ABOUT -->
+				<li class="nav-item dropdown">
+					<a id="navAboutUrl" class="nav-link" href="about.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon menu-icon-fill"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navAbout">About</div>
+							<div class="nav-ipa" id="navIpaAbout">Me</div> <!--/əˈbaʊt/-->
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+					<div class="navbar-dropdown-content" aria-labelledby="navbarDropdown">
+						<a class="navbar-dropdown-item" id="navSchool" href="school.html">school</a>
+						<a class="navbar-dropdown-item" id="navResume" href="resume.html">resume</a>
+					</div> <!-- end dropdown -->
+				</li> <!-- end nav-item -->
+				<!-- NLP -->
+				<li class="nav-item dropdown">
+					<a id="navWorkUrl" class="nav-link" href="nlp.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navWork">NLP</div>
+							<div class="nav-ipa" id="navIpaWork">Research</div> <!-- /ŋlp/ -->
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+				
+				<!-- DATA PROJECTS -->
+				<li class="nav-item dropdown">
+					<a id="navProjectsUrl" class="nav-link" href="datascience.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 120px;">
+							<div class="nav-text" id="navProjects">Data</div>
+							<div class="nav-ipa" id="navIpaProjects">Science</div> 
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+			
+				<!-- PROJECTS -->
+				<li class="nav-item dropdown">
+					<a id="navProjectsUrl" class="nav-link" href="visualization.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 120px;">
+							<div class="nav-text" id="navProjects">Visualization</div>
+							<div class="nav-ipa" id="navIpaProjects">Projects</div> <!-- /ˌvɪʒuələˈzeɪʃən/-->
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+				<!-- DESIGN -->
+				<li class="nav-item dropdown">
+					<a id="navDesignUrl" class="nav-link" href="passion.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						<div class="menu-icon"></div>
+						<div class="nav-container" style="width: 100px;">
+							<div class="nav-text" id="navDesign">Passion</div>
+							<div class="nav-ipa" id="navIpaDesign">Hobbies</div> <!-- /ˈpæʃən/ -->
+						</div> <!-- end nav-container -->
+					</a> <!-- end nav-link -->
+				</li> <!-- end nav-item -->
+			</ul> <!-- END NAV-ITEMS (navbar-nav mr-auto) -->
+		</div> <!-- end navbar-collapse -->
+	</div> <!-- end container-fluid -->
+	</nav> <!-- end navbar-light -->
 </header>
 <!---------------------------- END HEADER ---------------------------->
-
 
 <!---------------------------- BODY ---------------------------->
 

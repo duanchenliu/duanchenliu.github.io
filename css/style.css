@@ -129,7 +129,7 @@ h2 {
 
 h3 {
 	/* font-family: Sacramento, serif; */
-	font-family: "Cambria";
+	/* font-family: "Cambria"; */
 	font-size: 36px;
 	margin-bottom: -4px;
 }
@@ -255,19 +255,16 @@ a:hover .image {
 	padding-bottom: 56.25%; /* For a 16:9 aspect ratio */
 	overflow: hidden;
 	margin: 0 auto; /* Centers the video container horizontally */
-    }
-	
-    .video-container iframe {
+}
+
+.video-container iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-    }
+}
     
-    
-    
-
 .image-container .image {
 	max-width: 400px;
 	max-height: 400px;
